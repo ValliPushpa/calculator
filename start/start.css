@@ -1,0 +1,94 @@
+body{
+    font-family: 'Open Sans ',sans-serif;
+    background-color: black;
+}
+#container{
+    width: 1000px;
+    height: 550px;
+    background:url('numbers.png.png');
+    margin: 20px auto;
+}
+#calculator{
+    width: 320px;
+    height: 520px;
+    background-color:rgb(236, 150, 22);
+    margin:0 auto;
+    top:40px;
+    position :relative;
+    border-radius: 10px;
+
+}
+#result{
+    height: 120px;
+
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin:0 20px;
+    padding_top:20px;
+    font-size: 15px;
+    color:blueviolet
+}
+#output{
+    text-align: right;
+    height:60px;
+    margin:10px 20px;
+    font-size: 30px;
+}
+
+#keyboard{
+    height: 400px;
+}
+.operator,.number,.empty{
+    width:50px;
+    height:50px;
+    margin:15px;
+    float:left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight:bold;
+    font-size:15px;
+
+}
+.number,.empty{
+    background-color:rgb(236, 150, 22);
+}
+.number,.operator{
+    cursor:pointer;
+
+}
+.operator:active,.number:active{
+    font-size:13px;
+}
+.operator:focus,.number:focus,.empty:focus{
+    outline:0;
+}
+button:nth-child(4){
+    font-size:20px;
+    background-color: rgb(245, 101, 6);
+
+
+}
+button:nth-child(8){
+    font-size:20px;
+    background-color: rgb(250, 215, 241);
+    
+
+}
+button:nth-child(12){
+    font-size:20px;
+    background-color: rgb(38, 185, 211);
+    
+
+}
+button:nth-child(16){
+    font-size:20px;
+    background-color:navy;
+    
+}
+button:nth-child(20){
+    font-size:20px;
+    background-color: rgb(215, 250, 229);
+    
+}
